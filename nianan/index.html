@@ -79,8 +79,43 @@
 		</div>
 		
   
-    <audio autoplay="autoplay" loop="loop" preload="auto" src="xuanni.mp3">
-    </audio>
+    <!-- <audio autoplay="autoplay" loop="loop" preload="auto" src="../nianan/xuanni.mp3">
+    </audio> -->
+	<audio id="bg-music" loop preload="auto" src="xuanni.mp3"></audio>
+
+    <script type="text/javascript">
+        // 获取音频元素
+        var bgMusic = document.getElementById("bg-music");
+
+        // 尝试自动播放音乐
+        window.onload = function() {
+            playMusic();
+        };
+
+        // 用户交互时播放音乐
+        document.body.addEventListener("click", function() {
+            playMusic();
+        });
+
+        function playMusic() {
+            // 如果音乐已经在播放，则不执行任何操作
+            if (bgMusic.playing) {
+                return;
+            }
+
+            // 尝试播放音乐
+            bgMusic.play().catch(function(error) {
+                console.log("音乐自动播放被阻止: ", error);
+            });
+        }
+
+        // 检查音乐是否正在播放
+        Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
+            get: function() {
+                return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+            }
+        });
+    </script>
 	<!-- <audio autoplay loop preload="auto" src="xuanni.mp3">
         Your browser does not support the audio element.
     </audio> -->
