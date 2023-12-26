@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AE-圣诞树</title>
+    <style>
+        html, body {
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+        }
+        #main {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #video1 {
+            max-width: 100%;  /* 可以根据需要调整 */
+            max-height: 100%; /* 可以根据需要调整 */
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <video id="video1" muted="muted" autoplay="autoplay" loop="loop" src="https://tianfeng.space/wp-content/uploads/2022/12/圣诞树1.mp4">
+        </video>
+    </div>
+</body>
+<script type="text/javascript">
+    $(function(){
+        var video = document.getElementById("video1");
+        video.src = "";
+        video.play();
+    });
+    document.getElementById('video1').addEventListener('click', function() {
+    if (this.requestFullscreen) {
+        this.requestFullscreen();
+    } else if (this.mozRequestFullScreen) { /* Firefox */
+        this.mozRequestFullScreen();
+    } else if (this.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+        this.webkitRequestFullscreen();
+    } else if (this.msRequestFullscreen) { /* IE/Edge */
+        this.msRequestFullscreen();
+    }
+});
+
+</script>
+</html>

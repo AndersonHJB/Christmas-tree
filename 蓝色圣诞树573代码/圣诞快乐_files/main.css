@@ -1,0 +1,37 @@
+@import url(177fc8c267eb49c9b950a4f8e43b7758.css);
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family: "Ubuntu", sans-serif;
+	font-size: 100%;
+	
+}
+
+p{
+	line-height: 2em;
+	margin:0 0 20px;
+	text-align: center;
+}
+
+.wrap{
+	max-width: 600px;
+	margin:150px auto;
+}
+
+.type-wrap{
+	margin:10px auto;
+	padding:20px;
+	
+	border-radius:5px;
+	
+}
+
+.links{
+	margin:20px 0;
+	font-size: 0.75em;
+	text-align: center;
+}
