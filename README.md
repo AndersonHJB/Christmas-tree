@@ -1,4 +1,4 @@
-- [https://blog.class1v1.com/Christmas-tree/Blue-ae-Christmas-tree-looks-good](https://blog.class1v1.com/Christmas-tree/Blue-ae-Christmas-tree-looks-good)
+- [https://blog.class1v1.com/Christmas-tree/Blue-ae-Christmas-tree-looks-good](https://blog.class1v1.com/Christmas-tree/Blue-ae-Christmas-tree-looks-good) 后面的链接，自行参考这条链接修改就可以查看效果了。
 - [https://aiyc.top/Christmas-tree/Blue-Christmas-Tree-573-code](https://blog.class1v1.com/Christmas-tree/Blue-Christmas-Tree-573-code)
 - [https://aiyc.top/Christmas-tree/Christmas-Tree-Code-White](https://blog.class1v1.com/Christmas-tree/Christmas-Tree-Code-White)
 - [https://aiyc.top/Christmas-tree/Gift-Christmas-tree](https://blog.class1v1.com/Christmas-tree/Gift-Christmas-tree)
